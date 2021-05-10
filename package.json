@@ -1,22 +1,23 @@
 {
-  "name": "node_first_app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FrederiqueBaillais/node_first_app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FrederiqueBaillais/node_first_app/issues"
-  },
-  "homepage": "https://github.com/FrederiqueBaillais/node_first_app#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "node_first_app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FrederiqueBaillais/node_first_app.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FrederiqueBaillais/node_first_app/issues"
+    },
+    "homepage": "https://github.com/FrederiqueBaillais/node_first_app#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsonfile": "^4.0.0"
+    }
 }
