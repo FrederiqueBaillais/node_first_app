@@ -9,22 +9,15 @@ module.exports = app => {
     // Route is accessible as GET: /demo
     // req is the parameter that refers to the request data
     // res is the parameter that refers to the request's sender
-    //
 
     app.get("/demo", (req, res) => {
-
         // Some dummy data
-        //
-
         const demo = {
-            data1: "Hello",
-            data2: "World"
-        }
-
-        // res.send(data) or res.sendStatus(statusCode)
-        // To send a status message or data back to the requester
-        //
-
+                data1: "Hello",
+                data2: "World"
+            }
+            // res.send(data) or res.sendStatus(statusCode)
+            // To send a status message or data back to the requester
         res.send(demo)
     })
 };
